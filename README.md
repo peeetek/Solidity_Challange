@@ -2,18 +2,21 @@
 
 ![alt=“”](Images/20-5-challenge-image.png)
 
-### Background
+## Background
 
 This is a Solidity smart contract that implements a joint savings account. The smart contract accepts two user addresses that are then able to control the account. It uses ether management functions to implement various requirements from the financial institution to provide the features of the joint savings account.
 
-### Usage
+## Navigation
 
 The JointSavings smart contract has four variables:
 
-1. accountOne and accountTwo: Two variables of type address payable that represent the two user addresses that control the 2. joint savings account.
-2. lastToWithdraw: A variable of type address public that tracks the last user who made a withdrawal from the account.
-3. lastWithdrawAmount: A variable of type uint public that tracks the amount of the last withdrawal made from the account.
-4. contractBalance: A variable of type uint public that represents the current balance of the joint savings account.
+- **Execution_Results** Directory containing screenshts of contract executions
+- **joint_savings.sol** Solidity file that contains smart contract
+
+### Requirements
+
+ - Remix - Ethereum IDE
+    - solidity ^0.5.0
 
 ## Deployment
 
